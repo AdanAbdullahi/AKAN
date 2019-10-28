@@ -8,4 +8,12 @@ var femaleName= ["Akosua", "Adwoa", "Abeena", "Akua", "Yaa", "Afua", "Ama"];
         var date=parseInt(document.getElementById("date").value);
         var month=parseInt(document.getElementById("month").value);
         var year=parseIn(document.getElementById("year").value);
+        // give alert if the input data is not valid
+        if (date < 1 || date > 31) {
+            alert("invalid input")
+            return false;
+        } else if (month < 1 || month > 12){
+            alert("invalid input")
+            return false;
+        } else if ()
     }
