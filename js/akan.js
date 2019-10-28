@@ -31,5 +31,10 @@ var femaleName= ["Akosua", "Adwoa", "Abeena", "Akua", "Yaa", "Afua", "Ama"];
         } else {
             document.getElementById(Display).innerHTML="Your Akan name is"+femaleName [dayOfWeek];
         }
-        
+       //Check for gender output
+        if (maleGender.checked) {
+            var maleValue= maleGender.value;
+        }else (femaleGender.checked) {
+            var femalValue= femaleGender.value;
+        }
     }
