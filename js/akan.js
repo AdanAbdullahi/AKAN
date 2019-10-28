@@ -22,5 +22,7 @@ var femaleName= ["Akosua", "Adwoa", "Abeena", "Akua", "Yaa", "Afua", "Ama"];
 
         //This formula will calculate the day of the week
         var century= (year-1)/100+1;
-        var dayOfWeek=math.floor (((CC/4) -2*CC-1) + (5*YY/4) + ((26*MM+1)/10) +DD ) % 7;    
+        var dayOfWeek=math.floor (((CC/4) -2*CC-1) + (5*YY/4) + ((26*MM+1)/10) +DD ) % 7;
+        var femaleName= document.getElementById ("Female")
+        var maleName= document.getElementById ("male")
     }
