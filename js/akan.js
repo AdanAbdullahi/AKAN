@@ -15,5 +15,11 @@ var femaleName= ["Akosua", "Adwoa", "Abeena", "Akua", "Yaa", "Afua", "Ama"];
         } else if (month < 1 || month > 12){
             alert("invalid input")
             return false;
-        } else if ()
+        } else if (year < 0000 || year > 2019){
+            alert("invalid input")
+            return false;
+        }
+
+        //This formula will calculate the day of the week
+        
     }
