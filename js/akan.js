@@ -34,7 +34,7 @@ var femaleName= ["Akosua", "Adwoa", "Abeena", "Akua", "Yaa", "Afua", "Ama"];
        //Check for gender output
         if (maleGender.checked) {
             var maleValue= maleGender.value;
-        }else (femaleGender.checked) {
+        }else (femaleGender.checked)
             var femalValue= femaleGender.value;
-        }
+        
     }
