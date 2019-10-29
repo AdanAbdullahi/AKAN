@@ -20,21 +20,21 @@ var femaleName= ["Akosua", "Adwoa", "Abeena", "Akua", "Yaa", "Afua", "Ama"];
             return false;
         }
         //This formula will calculate the day of the week
-        var century= (year-1)/100+1;
+        var century=(year-1)/100+1;
         var dayOfWeek=math.floor (((CC/4) -2*CC-1) + (5*YY/4) + ((26*MM+1)/10) +DD ) % 7;
         var femaleName= document.getElementById ("Female")
-        var maleName= document.getElementById ("male")
+        var maleName= document.getElementById ("Male")
 
         // Check for name output (if it is correct or not)
         if (maleValue==="Male"){
             document.getElementById("Display").innerHTML="Your Akan Name is"+maleName [dayOfWeek];
         } else {
-            document.getElementById(Display).innerHTML="Your Akan name is"+femaleName [dayOfWeek];
+            document.getElementById("Display").innerHTML="Your Akan name is"+femaleName [dayOfWeek];
         }
        //Check for gender output
         if (maleGender.checked) {
             var maleValue= maleGender.value;
-        }else (femaleGender.checked)
-            var femalValue= femaleGender.value;
+        } else (femaleGender.checked)
+            var FemaleValue= femaleGender.value;
         
     }
